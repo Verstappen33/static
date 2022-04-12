@@ -1,0 +1,21 @@
+html{
+    border-top: 3px solid rgb(169, 244, 254);
+}
+
+h2, h3{
+    text-align: center;
+}
+
+div{
+   width: 60%;
+   margin: auto;
+   margin-top: 50px;
+}
+
+p{
+    border-left: 5px solid rgb(69, 255, 202);
+    padding-left: 10px;
+}
+p:nth-child(odd){
+    border-left: 5px solid rgb(0, 225, 255);
+}
